@@ -1,3 +1,9 @@
+import os
+
+os.system('pip install numpy==1.15.2')
+os.system('pip install torch==1.4.0')
+os.system('pip install gym==0.10.11')
+
 from Agents.dqn_agent import DQN_Agent, DQN_C51Agent
 from Agents import MultiPro
 from Wrapper import wrapper_new
